@@ -1,11 +1,11 @@
 :root {
-    --accent-color: #a8858f;
-    --background-color: #2d3250;
-    --background-color-2: #2d3250;
-    --background-card: #676f9d;
-    --light-grey: rgb(194, 194, 194);
-    --border-radius: 30px;
-  }
+  --accent-color: #a8858f;
+  --background-color: #2d3250;
+  --background-color-2: #2d3250;
+  --background-card: #676f9d;
+  --light-grey: rgb(194, 194, 194);
+  --border-radius: 30px;
+}
 
 html {
 font-size: 16px;
@@ -18,73 +18,73 @@ font-family: "Montserrat", sans-serif;
 }
 
 .containerr {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100vh;
-  background-color: #161e31;
-  /* #202029a9 #362b2e #262635be #161e31*/
+display: flex;
+align-items: center;
+justify-content: center;
+width: 100%;
+height: 100vh;
+background-color: #161e31;
+/* #202029a9 #362b2e #262635be #161e31*/
 }
 
 /* CARD UTAMA */
 .card {
-  display: flex;
-  background: var(--background-color-2);
-  height: 82vh;
-  width: 85vw;
-  max-width: 850px;
-  max-height: 701px;
-  /* min-height: 600px; */
-  border-radius: var(--border-radius);
-  box-shadow: 0px 0px 20px 20px rgba(0, 0, 0, 0.205);
+display: flex;
+background: var(--background-color-2);
+height: 82vh;
+width: 85vw;
+max-width: 850px;
+max-height: 701px;
+/* min-height: 600px; */
+border-radius: var(--border-radius);
+box-shadow: 0px 0px 20px 20px rgba(0, 0, 0, 0.205);
 }
 
 .container-in{
-    display: flex;
-    /* justify-content: center;
-    align-items: center; */
-    /* background-color: var(--accent-color); */
-    height: 100%;
-    width: 100%;
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  /* background-color: var(--accent-color); */
+  height: 100%;
+  width: 100%;
 }
 .card-left {
-    /* #111a21; */
-    padding: 0px 20px 20px 20px; /*padding: 40px 20px 20px 20px;*/
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 50%;
-    height: 100%;
-    background-color: white;
-    border-radius: var(--border-radius) 0 0 var(--border-radius); /* KIRI ATAS, KANAN ATAS, KANAN BAWAH, KIRI BAWAH*/
-    color: white;
-    overflow: hidden;
-    background-color: var(--background-color-2);
+  /* #111a21; */
+  padding: 0px 20px 20px 20px; /*padding: 40px 20px 20px 20px;*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+  background-color: white;
+  border-radius: var(--border-radius) 0 0 var(--border-radius); /* KIRI ATAS, KANAN ATAS, KANAN BAWAH, KIRI BAWAH*/
+  color: white;
+  overflow: hidden;
+  background-color: var(--background-color-2);
 }
 
 .card-left-in{
-    padding: 0px 30px 0 30px; /*padding: 30px 30px 0 30px;*/
-    display: flex;
-    width: 100%;
-    height: 100%;
-    /* background-color: rgb(0, 0, 0); */
-    flex-direction: column;
-    justify-content: center;
+  padding: 0px 30px 0 30px; /*padding: 30px 30px 0 30px;*/
+  display: flex;
+  width: 100%;
+  height: 100%;
+  /* background-color: rgb(0, 0, 0); */
+  flex-direction: column;
+  justify-content: center;
 }
 
 .title-login{
-    display: flex;
-    width: auto;
-    height: auto;
-    letter-spacing: 0;
-    /* background-color: cyan; */
+  display: flex;
+  width: auto;
+  height: auto;
+  letter-spacing: 0;
+  /* background-color: cyan; */
 }
 
 .title-login-small{
-    width: auto;
-    height: auto;
-    font-size: 0.9rem;
+  width: auto;
+  height: auto;
+  font-size: 0.9rem;
 }
 
 .card-right {
@@ -101,238 +101,242 @@ background-size: cover;
 
 /* Form Input */
 .form-container{
-  display: flex;
-  flex-direction: column;
-  /* background-color: #a8858f; */
-  width: 100%; /*Agar width sesuai dengan konten*/
-  height: 100%;
+display: flex;
+flex-direction: column;
+/* background-color: #a8858f; */
+width: 100%; /*Agar width sesuai dengan konten*/
+height: 100%;
 }
 .nav{
-  display: flex;
-  width: auto;
-  height: auto;
-  margin-bottom: 30px;
+display: flex;
+width: auto;
+height: auto;
+margin-bottom: 30px;
 }
 
 .active{
-  color: #0d6efd;
-  border-bottom: 3.3px solid #0d6efd;
-  cursor: pointer;
-  border-radius: 0.4px;
-  padding-left: 5px;
-  padding-right: 5px;
-  margin-left: 3px;
-  margin-right: 3px;
+color: #0d6efd;
+border-bottom: 3.3px solid #0d6efd;
+cursor: pointer;
+border-radius: 0.4px;
+padding-left: 5px;
+padding-right: 5px;
+margin-left: 3px;
+margin-right: 3px;
 }
 .nav a {
-  text-decoration: none; /* Menghapus garis bawah standar pada tautan */
-  position: relative;
-  color: #0d6efd;
+text-decoration: none; /* Menghapus garis bawah standar pada tautan */
+position: relative;
+color: #0d6efd;
 }
 
 /* Efek garis bawah saat hover */
 .nav a::after {
-  content: ''; /* Menambahkan konten pada pseudo-element */
-  display: block; /* Mengubah menjadi blok agar bisa diatur lebar dan efek transisi */
-  width: 0; /* Lebar awal garis bawah */
-  height: 3.0px; /* Tinggi garis bawah */
-  background-color: #007BFF; /* Warna garis bawah */
-  position: absolute; /* Posisi absolut terhadap tautan */
-  bottom: 0px; /* Jarak dari bawah (sesuai dengan tinggi garis bawah) */
-  left: 0; /* Posisi awal dari kiri */
-  transition: width 0.5s; /* Efek transisi lebar saat hover */
-  border-radius: 1px;
-  color: #0d6efd;
+content: ''; /* Menambahkan konten pada pseudo-element */
+display: block; /* Mengubah menjadi blok agar bisa diatur lebar dan efek transisi */
+width: 0; /* Lebar awal garis bawah */
+/* height: 3.0px; Tinggi garis bawah */
+background-color: #007BFF; /* Warna garis bawah */
+position: absolute; /* Posisi absolut terhadap tautan */
+bottom: 0px; /* Jarak dari bawah (sesuai dengan tinggi garis bawah) */
+left: 0; /* Posisi awal dari kiri */
+transition: width 0.5s; /* Efek transisi lebar saat hover */
+border-radius: 1px;
+color: #0d6efd;
+padding-top: 1.5px;
+padding-bottom: 1.5px;
 }
 
 .nav .uhuy a::after {
-  content: ''; /* Menambahkan konten pada pseudo-element */
-  display: block; /* Mengubah menjadi blok agar bisa diatur lebar dan efek transisi */
-  width: 0; /* Lebar awal garis bawah */
-  height: 3.3px; /* Tinggi garis bawah */
-  background-color: #007BFF; /* Warna garis bawah */
-  position: absolute; /* Posisi absolut terhadap tautan */
-  bottom: 0px; /* Jarak dari bawah (sesuai dengan tinggi garis bawah) */
-  left: 0; /* Posisi awal dari kiri */
-  transition: width 0.5s; /* Efek transisi lebar saat hover */
-  border-radius: 1px;
-  color: #0d6efd;
+content: ''; /* Menambahkan konten pada pseudo-element */
+display: block; /* Mengubah menjadi blok agar bisa diatur lebar dan efek transisi */
+width: 0; /* Lebar awal garis bawah */
+height: 3.3px; /* Tinggi garis bawah */
+background-color: #007BFF; /* Warna garis bawah */
+position: absolute; /* Posisi absolut terhadap tautan */
+bottom: 0px; /* Jarak dari bawah (sesuai dengan tinggi garis bawah) */
+left: 0; /* Posisi awal dari kiri */
+transition: width 0.5s; /* Efek transisi lebar saat hover */
+border-radius: 1px;
+color: #0d6efd;
 }
 /* Efek transisi saat hover */
 .nav a:hover::after {
-  width: 100%; /* Lebar akhir garis bawah saat hover */
-  color: #0d6efd;
+width: 100%; /* Lebar akhir garis bawah saat hover */
+color: #0d6efd;
 }
 
 
 /* CSS UNTUK HOVER TEXT LOGIN */
 .nav2{
-  display: flex;
-  width: auto;
-  height: auto;
-  margin-bottom: 30px;
+display: flex;
+width: auto;
+height: auto;
+margin-bottom: 30px;
 }
 
 .nav2 a {
-  text-decoration: none; /* Menghapus garis bawah standar pada tautan */
-  position: relative;
-  color: #0d6efd;
+text-decoration: none; /* Menghapus garis bawah standar pada tautan */
+position: relative;
+color: #0d6efd;
 }
 
 /* Efek garis bawah saat hover */
 .nav2 a::after {
-  content: ''; /* Menambahkan konten pada pseudo-element */
-  display: block; /* Mengubah menjadi blok agar bisa diatur lebar dan efek transisi */
-  width: 0; /* Lebar awal garis bawah */
-  height: 3.6px; /* Tinggi garis bawah */
-  background-color: #007BFF; /* Warna garis bawah */
-  position: absolute; /* Posisi absolut terhadap tautan */
-  bottom: 0px; /* Jarak dari bawah (sesuai dengan tinggi garis bawah) */
-  left: 0; /* Posisi awal dari kiri */
-  transition: width 0.5s; /* Efek transisi lebar saat hover */
-  border-radius: 1px;
-  color: #0d6efd;
+content: ''; /* Menambahkan konten pada pseudo-element */
+display: block; /* Mengubah menjadi blok agar bisa diatur lebar dan efek transisi */
+width: 0; /* Lebar awal garis bawah */
+/* height: 3.6px; Tinggi garis bawah */
+background-color: #007BFF; /* Warna garis bawah */
+position: absolute; /* Posisi absolut terhadap tautan */
+bottom: 0px; /* Jarak dari bawah (sesuai dengan tinggi garis bawah) */
+left: 0; /* Posisi awal dari kiri */
+transition: width 0.5s; /* Efek transisi lebar saat hover */
+border-radius: 1px;
+color: #0d6efd;
+padding-top: 1.5px;
+padding-bottom: 1.5px;
 }
 
 /* Efek transisi saat hover */
 .nav2 a:hover::after {
-  width: 100%; /* Lebar akhir garis bawah saat hover */
-  color: #0d6efd;
+width: 100%; /* Lebar akhir garis bawah saat hover */
+color: #0d6efd;
 }
 
 /* .nav a{
-  text-decoration: none; 
+text-decoration: none; 
 }
 
 .nav a:hover{
-  color: #0d6efd;
-  border-bottom: 2px solid #3c50eb;
-  cursor: pointer;
+color: #0d6efd;
+border-bottom: 2px solid #3c50eb;
+cursor: pointer;
 } */
 
 
 .text-login{
-  width: auto;
-  padding-left: 5px;
-  padding-right: 5px;
-  /* background-color: #161e31; */
-  margin-left: 3px;
-  margin-right: 3px;
+width: auto;
+padding-left: 5px;
+padding-right: 5px;
+/* background-color: #161e31; */
+margin-left: 3px;
+margin-right: 3px;
 }
 
 .text-pass{
-  width: auto;
-  height: auto;
-  padding-left: 5px;
-  padding-right: 5px;
-  /* background-color: #161e31; */
-  margin-left: 3px;
-  margin-right: 3px;
+width: auto;
+height: auto;
+padding-left: 5px;
+padding-right: 5px;
+/* background-color: #161e31; */
+margin-left: 3px;
+margin-right: 3px;
 }
 
 .text-forgot{
-  font-size: 0.8rem;
-  /* color : #f9b17a; */
-  color: #008cff;
-  margin-bottom: 10px;
-  text-decoration: none;
-  cursor: pointer;
+font-size: 0.8rem;
+/* color : #f9b17a; */
+color: #008cff;
+margin-bottom: 10px;
+text-decoration: none;
+cursor: pointer;
 }
 
 .vertical-line {
-  border-left: 2px solid #3c50eb; 
-  height: 1.7rem;
-  width: auto;
-  margin-left: 5px;
-  margin-right: 5px;
-  background-color: black;
+border-left: 2px solid #3c50eb; 
+height: 1.7rem;
+width: auto;
+margin-left: 5px;
+margin-right: 5px;
+background-color: black;
 }
 .username-margin{
-  margin-top: 35px;
+margin-top: 35px;
 }
 
 .pass-margin{
-  margin-top: 30px;
+margin-top: 30px;
 }
 
 input:not(:placeholder-shown) {
-  background-color: transparent;
+background-color: transparent;
 }
 input:-webkit-autofill {
-  -webkit-box-shadow: 0 0 0px 1000px var(--background-color-2) inset;
-  -webkit-text-fill-color: #fff;
-  /* Ganti warna putih dengan warna latar belakang yang Anda inginkan */
+-webkit-box-shadow: 0 0 0px 1000px var(--background-color-2) inset;
+-webkit-text-fill-color: #fff;
+/* Ganti warna putih dengan warna latar belakang yang Anda inginkan */
 }
 
 .input-group{
-  position: relative;
-  /* margin-top: 40px; */
-  /* width: auto;
-  height: auto; */
+position: relative;
+/* margin-top: 40px; */
+/* width: auto;
+height: auto; */
 }
 .input-group .input-icon {
-  position: absolute;
-  top: 50%;
-  right: 20px; /* Jarak ikon dari sisi kanan input */
-  transform: translateY(-50%);
+position: absolute;
+top: 50%;
+right: 20px; /* Jarak ikon dari sisi kanan input */
+transform: translateY(-50%);
 }
 .input-group input{
-  font: inherit;
-  color: #fff;
-  padding: 10px;
-  border: none;
-  /* border-radius: 0px; */
-  border-radius: 4px;
-  outline: 2px solid #fff;
-  background-color: transparent;
-  transition:  outline-color 50ms;
-  width: 100%;
-  height: auto;
-  font-size: 0.9rem;
+font: inherit;
+color: #fff;
+padding: 10px;
+border: none;
+/* border-radius: 0px; */
+border-radius: 4px;
+outline: 2px solid #fff;
+background-color: transparent;
+transition:  outline-color 50ms;
+width: 100%;
+height: auto;
+font-size: 0.9rem;
 }
 
 .input-group input:is(:focus, :valid){
-  outline-color: #3c50eb /*3c50eb*/
+outline-color: #3c50eb /*3c50eb*/
 }
 
 .input-group__label{
-  position: absolute;
-  top: 0;
-  left: 0;
-  translate: 12px 12px; /*KANAN KIRI ATAS BAWAH*/
-  color: #fff;
-  transition: translate 50ms, scale 50ms;
-  font-size: 0.8rem;
+position: absolute;
+top: 0;
+left: 0;
+translate: 12px 12px; /*KANAN KIRI ATAS BAWAH*/
+color: #fff;
+transition: translate 50ms, scale 50ms;
+font-size: 0.8rem;
 }
 .input-group input:focus +
 .input-group__label,
 .input-group input:valid +
 .input-group__label {
-  /* padding-inline: 5px; */
-  translate: 10px -12px;
-  scale: 0.9;
-  background-color: var(--background-color-2);
-  padding-left: 2px;
-  padding-right: 2px;
-  /* background-color: #000; */
+/* padding-inline: 5px; */
+translate: 10px -12px;
+scale: 0.9;
+background-color: var(--background-color-2);
+padding-left: 2px;
+padding-right: 2px;
+/* background-color: #000; */
 }
 .btnlogin{
-  margin-top: 10px;
-  height: auto;
-  width: 50%;
-  background-color: #3c50eb;
-  outline-color: none;
-  border: none;
-  border-radius: 5px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  color: white;
-  font-weight: bold;
-  font-size: 0.9rem;
-  box-shadow: 0px 0px 6px 3px #3c50eb77;
-  letter-spacing: 0.09rem;
+margin-top: 10px;
+height: auto;
+width: 50%;
+background-color: #3c50eb;
+outline-color: none;
+border: none;
+border-radius: 5px;
+padding-top: 10px;
+padding-bottom: 10px;
+color: white;
+font-weight: bold;
+font-size: 0.9rem;
+box-shadow: 0px 0px 6px 3px #3c50eb77;
+letter-spacing: 0.09rem;
 }
 .btnlogin:hover{
-  background-color: #0d6efd;
-  transition: ease-in-out 0.5s;
+background-color: #0d6efd;
+transition: ease-in-out 0.5s;
 }
