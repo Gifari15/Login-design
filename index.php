@@ -9,6 +9,10 @@
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.6.0/css/bootstrap.min.css"/>
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        />
 
         <!-- LINK ICON DARI FLATICON -->
         <!-- https://www.flaticon.com/icon-fonts-most-downloaded -->
@@ -39,27 +43,29 @@
                             <div class="vertical-line"></div>
                             <a href="#" class="text-pass" onclick="displayregis(), clearInput()">Register</a>
                         </div>
-                        <h2 class="title-login">Selamat Datang</h2>
-                        <div class="title-login-small">Silahkan login terlebih dahulu !</div>
+                        <!-- <span> -->
+                        <h2 class="title-login animate__animated animate__fadeIn">Selamat Datang</h2>
+                        <div class="title-login-small animate__animated animate__fadeIn">Silahkan login terlebih dahulu !</div>
                         <form method="POST" action="">
-                            <div class="input-group username-margin">
-                                <span class="input-icon">
+                            <div class="input-group username-margin animate__animated animate__fadeIn">
+                                <span class="input-icon animate__animated animate__fadeIn">
                                     <i class="fi fi-rs-user" style="font-size: 1.2rem;"></i>
                                 </span>
                                 <input type="text" id="email" class="..." style="border-radius: 4px;" required />
                                 <label for="email" class="input-group__label">Username</label>
                             </div>
-                            <div class="input-group pass-margin">
-                                <span class="input-icon">
+                            <div class="input-group pass-margin animate__animated animate__fadeIn">
+                                <span class="input-icon animate__animated animate__fadeIn">
                                     <i class="fi fi-rr-key" style="font-size: 1.2rem;"></i>
                                 </span>
                                 <input type="password" id="password" class="..." style="border-radius: 4px;" required />
                                 <label for="email" class="input-group__label">Password</label>
                             </div>
                         </form>
-                        <a href="#" class="text-forgot">Lupa Password ?</a>
-                        <button class="btnlogin">Login</button>
-
+                        <a href="#" class="text-forgot animate__animated animate__fadeIn">Lupa Password ?</a>
+                        <!-- </span> -->
+                        <button class="btnlogin animate__animated animate__fadeIn">Login</button>
+                        
                     </div>
                 </div>
                 <img src="image/autumn.jpg" class="card-right"/>
@@ -77,25 +83,25 @@
                             <div class="vertical-line"></div>
                             <div href="#" class="active">Register</div>
                         </div>
-                        <h2 class="title-login">Selamat Datang</h2>
-                        <div class="title-login-small">Silahkan daftar terlebih dahulu !</div>
+                        <h2 class="title-login animate__animated animate__fadeIn">Selamat Datang</h2>
+                        <div class="title-login-small animate__animated animate__fadeIn">Silahkan daftar terlebih dahulu !</div>
                         <form method="POST" action="">
-                        <div class="input-group username-margin">
-                            <span class="input-icon">
+                        <div class="input-group username-margin animate__animated animate__fadeIn">
+                            <span class="input-icon animate__animated animate__fadeIn">
                                 <i class="fi fi-rs-user" style="font-size: 1.2rem;"></i>
                             </span>
                             <input type="text" id="username_r" class="..." style="border-radius: 4px;" required />
                             <label for="username_r" class="input-group__label">Username</label>
                         </div>
-                        <div class="input-group pass-margin">
-                            <span class="input-icon">
+                        <div class="input-group pass-margin animate__animated animate__fadeIn">
+                            <span class="input-icon animate__animated animate__fadeIn">
                                 <i class="fi fi-rr-key" style="font-size: 1.2rem;"></i>
                             </span>
                             <input type="password" id="password_r" class="..." style="border-radius: 4px;" required />
                             <label for="password_r" class="input-group__label">Password</label>
                         </div>
-                        <div class="input-group pass-margin">
-                            <span class="input-icon">
+                        <div class="input-group pass-margin animate__animated animate__fadeIn">
+                            <span class="input-icon animate__animated animate__fadeIn">
                             <i class="fi fi-rr-lock" style="font-size: 1.2rem;"></i>
                             </span>
                             <input type="password" id="password_v" class="..." style="border-radius: 4px;" required />
@@ -103,7 +109,7 @@
                         </div>
                         </form>
                         <!-- <a href="#" class="text-forgot">l</a> -->
-                        <button class="btnlogin">Sign Up</button>
+                        <button class="btnlogin animate__animated animate__fadeIn">Sign Up</button>
 
                     </div>
                 </div>
